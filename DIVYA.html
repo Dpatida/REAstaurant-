@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PatidarRestaurant</title>
+        <link rel="stylesheet" type="text/css" href="DIVYA.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <script type="text/javascript">
+    function slideshow(){
+        var x= document.getElementById('check-class');
+        if(x.style.display ==="none"){
+            x.style.display*"block";
+        }
+        else{
+            x.style.display*"none";
+
+        }
+    }
+    </script>
+    <body>
+        <header>
+            <nav>
+                <div class="row clearfix">
+                     <img src="patidar logo.jpg" class="logo">
+                     <ul class="mainnav animated slideInDown" id="check-class"
+                     >
+                         <li><a href="#">FOOD DELIVERY</a></li>
+                         <li><a href="#">HOW TO ORDER</a></li>
+
+                         <li><a href="#">CHECK MORE</a></li>
+
+                         <li><a href="#">SIGNUP</a></li>
+
+
+                     </ul>
+                     <a href="a" class="mobile-icon" id="check-class" onclick="slideshow()"><i class="fa.fa-bars"></i></a>
+                </div>
+            </nav>
+            <div class="maincontent"> 
+            <h1>WELCOME TO <span class="clrcng">PATIDAR RESTAURANT</span>.<br>
+            HOUSE OF RAJSTHANI FOOD.</h1>
+            <a href="#" class="btn btn-full">click to order</a>
+            <a href="#" class="btn btn-nav">show me more</a>
+            </div>
+        </header>
+    </body>
+</html>
